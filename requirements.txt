@@ -1,0 +1,16 @@
+# Dados
+pandas==3.1.1
+numpy==2.5.5
+pyarrow==26.0.1
+
+# SQL
+duckdb==2.0.0
+
+# Notebooks
+jupyterlab==4.6.6
+ipykernel==7.4.0
+nbformat==5.11.1
+
+# Visualização
+matplotlib==3.11.2
+plotly==7.1.0

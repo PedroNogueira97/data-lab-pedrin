@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Dados (grandes demais para o git; manter só os READMEs)
+datasets/raw/*
+datasets/processed/*
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!datasets/**/README.md
+
+# Bancos DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Variáveis de ambiente / segredos
+.env
+.env.*
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+.vscode/
+.idea/
